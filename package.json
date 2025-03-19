@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/yKazacky/novo-teste-ebac-ui/issues"
   },
-  "homepage": "https://github.com/yKazacky/novo-teste-ebac-ui#readme"
+  "homepage": "https://github.com/yKazacky/novo-teste-ebac-ui#readme",
+  "dependencies": {
+    "@faker-js/faker": "^9.6.0"
+  }
 }
