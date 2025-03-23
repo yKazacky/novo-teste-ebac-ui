@@ -38,13 +38,18 @@ describe('Funcionalidade Login', () => {
         cy.get('.woocommerce-form > .button').click()
         cy.get('.woocommerce-MyAccount-content > :nth-child(2)').should('contain',"Olá, lucasacky ")
     });
-    it.only('Deve fazer login com sucesso - Utilizando Fixture.', () => {
+    it('Deve fazer login com sucesso - Utilizando Fixture.', () => {
         cy.fixture('perfil').then( dados =>{
             cy.get('#username').type(dados.usuario, {log: false})
             cy.get('#password').type(dados.senha, {log: false})
             cy.get('.woocommerce-form > .button').click()
             cy.get('.woocommerce-MyAccount-content > :nth-child(2)').should('contain',"Olá, lucasacky ")
         })
+    });
+    it.only('Deve fazer login com sucesso - Utilizando comandos personalizados', () => {
+        cy.login('lucasacky@teste.com','lucas123')
+        cy.get('.woocommerce-MyAccount-content > :nth-child(2)').should('contain',"Olá, lucasacky ")
+        
     });
     
 });
