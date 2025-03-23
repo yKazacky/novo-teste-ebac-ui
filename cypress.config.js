@@ -4,5 +4,7 @@ module.exports = {
       // implement node event listeners here
     },
     baseUrl:'http://lojaebac.ebaconline.art.br/',
+    video:true,
+    projectId: "3zziso",
   },
 };
