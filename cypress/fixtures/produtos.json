@@ -1,0 +1,24 @@
+[
+    {
+        "nomeProduto": "Pierce Gym Short",
+        "tamanho": "36",
+        "cor": "Gray",
+        "quantidade": 10
+
+    },
+    {
+        "nomeProduto": "Aether Gym Pant",
+        "tamanho": "33",
+        "cor": "Brown",
+        "quantidade": 2
+
+    },
+    {
+        "nomeProduto": "Ajax Full-Zip Sweatshirt",
+        "tamanho": "XL",
+        "cor": "Green",
+        "quantidade": 4
+
+    }
+    
+]
