@@ -1,4 +1,4 @@
-/// <Reference types="cypress"/>
+/// <reference types="cypress" />
 import { faker } from '@faker-js/faker';
 
 describe('Funcionalidade Cadastro', () => {
@@ -19,7 +19,7 @@ describe('Funcionalidade Cadastro', () => {
         cy.get('.woocommerce-message').should('exist')
     });
     
-    it.only('Deve completar um cadastro - Usando Variaveis', () => {
+    it('Deve completar um cadastro - Usando Variaveis', () => {
         var primeiroNome=faker.person.firstName()
         var email=faker.internet.email(primeiroNome)
         var senha=faker.internet.password()

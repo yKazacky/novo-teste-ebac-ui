@@ -1,4 +1,4 @@
-/// <Reference types="cypress"/>
+/// <reference types="cypress" />
 
 describe('Funcionalidade Login', () => {
 
